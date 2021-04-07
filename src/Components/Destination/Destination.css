@@ -1,0 +1,65 @@
+.destination {
+  display: flex;
+}
+
+.search-field {
+  background-color: lightgrey;
+  margin: 10px;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.search-field input {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+}
+.map-field {
+  width: 75%;
+  border-left: 1px solid gray;
+  padding: 20px;
+  margin: 20px;
+}
+.text-style {
+  background-color: tomato;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.places {
+  text-align: center;
+  color: wheat;
+  margin-right: 20px;
+}
+@media (max-width: 600px) {
+  .destination {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .search-field {
+    background-color: lightgrey;
+    margin: 10px;
+
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .search-field input {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+  }
+  .map-field {
+    border-top: 1px solid gray;
+    padding: 20px;
+    margin: 20px;
+  }
+}

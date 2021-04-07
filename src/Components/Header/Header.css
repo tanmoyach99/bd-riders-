@@ -1,0 +1,26 @@
+.nav-bar{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: medium;
+}
+.sign-up{
+    background-color: crimson;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    color: seashell;
+    border-radius: 5px;
+}
+@media(max-width:600px){
+    .nav-bar a{
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: small;
+    }
+}
+

@@ -1,0 +1,28 @@
+.home-component {
+    text-align: center;
+    background-image: url('../../images/Bg.png');
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+  
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+@media(max-width:600px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        
+    }
+
+}
