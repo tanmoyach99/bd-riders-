@@ -1,4 +1,21 @@
 
+.login{
+    text-align: center;
+    background-image: url('../../images/d598225506e8003a5cdbc0c7e910750e.jpg');
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    color: blue;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+
 .form-control .input-field{
     width: 500px;
     height: 50px;
@@ -29,10 +46,11 @@
     
 }
 .google-buttons{
-    border: 1px solid gray;
+    border: 3px solid;
     width: 500px;
     height: 50px;
     border-radius: 20px;
+    
 }
 
 @media(max-width:600px){

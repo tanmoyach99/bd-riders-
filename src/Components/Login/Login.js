@@ -6,6 +6,7 @@ import { UserContext } from "../../App";
 import { useHistory, useLocation } from "react-router";
 import "./Login.css";
 import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 
 firebase.initializeApp(firebaseConfig);
 
@@ -146,7 +147,8 @@ const Login = () => {
       });
   };
   return (
-    <div>
+      <div className="login">
+          <Header></Header>
       <div className="sign-field">
         <h3>CREATE AN ACCOUNT</h3>
         <form className="form-control" style={{ textAlign: "center" }}>
@@ -208,7 +210,7 @@ const Login = () => {
             value={newUser ? "sign-up" : "sign-in"}
           />
           {newUser ? (
-            <p>
+            <p className="text">
               Already a member?{" "}
               <button
                 style={{ color: "indianred" }}
@@ -218,7 +220,7 @@ const Login = () => {
               </button>{" "}
             </p>
           ) : (
-            <p>
+            <p className="text">
               Not a member{" "}
               <button
                 style={{ color: "indianred" }}
